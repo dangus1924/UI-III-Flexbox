@@ -141,14 +141,25 @@ footer{
 	
 
 }
+
+.services-header-img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	margin: 25px;
+}
+
 p{
 	text-align: left;
 	padding: 15px;
 }
+
 h2{
 	text-align: left;
 	padding: 15px;
 }
+
 button{
 background-color: rgb(247, 240, 240);
   border: 1px solid black;
@@ -163,6 +174,31 @@ background-color: rgb(247, 240, 240);
 	width: 130px;
 	height: 25px;
 }
+
 section{
 	padding: 15px;
+}
+
+h1{
+	font-size: 25px;
+	margin: 25px;
+}
+
+hr{
+	margin: 25px;
+}
+.top-p{
+	margin: 10px;
+}
+ul{
+	list-style: square;
+	line-height: 1.8;
+}
+.bottom-content{
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+.last-p{
+	width: 50%;
 }
